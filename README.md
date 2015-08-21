@@ -115,6 +115,15 @@ current version will be bumped instead.
 NOTE: auto bumping currently only works for Git repos. For Perforce repos,
 auto is the same as build.
 
+### Testing
+This project uses RSpec+Cucumber and depends on some system dependencies.
+
+Tp run tests:
+* bundle exec rake spec
+
+System Requirements:
+* Perforce: Download 'P4: Command Line'
+* Git
 
 ## Contributing
 
